@@ -6,25 +6,30 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /**
+   * primary 색인 #f07c9c을 다크의 primary로 두고, 라이트의 primary는 다크의 primary-dark로 적용
+   * 다음 툴을 사용하여 생성
+   * https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima
+   */
+  --ifm-color-primary: #ec5b83;
+  --ifm-color-primary-dark: #e93e6d;
+  --ifm-color-primary-darker: #e72f62;
+  --ifm-color-primary-darkest: #cd184a;
+  --ifm-color-primary-light: #ef7899;
+  --ifm-color-primary-lighter: #f187a4;
+  --ifm-color-primary-lightest: #f6b3c5;
   --ifm-code-font-size: 95%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #f07c9c;
+  --ifm-color-primary-dark: #ec5b83;
+  --ifm-color-primary-darker: #ea4b77;
+  --ifm-color-primary-darkest: #e51a52;
+  --ifm-color-primary-light: #f49db5;
+  --ifm-color-primary-lighter: #f6adc1;
+  --ifm-color-primary-lightest: #fbdee6;
 }
 
 .docusaurus-highlight-code-line {
