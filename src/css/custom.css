@@ -7,17 +7,16 @@
 /* You can override the default Infima variables here. */
 :root {
   /**
-   * primary 색인 #f07c9c을 다크의 primary로 두고, 라이트의 primary는 다크의 primary-dark로 적용
    * 다음 툴을 사용하여 생성
    * https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima
    */
-  --ifm-color-primary: #ec5b83;
-  --ifm-color-primary-dark: #e93e6d;
-  --ifm-color-primary-darker: #e72f62;
-  --ifm-color-primary-darkest: #cd184a;
-  --ifm-color-primary-light: #ef7899;
-  --ifm-color-primary-lighter: #f187a4;
-  --ifm-color-primary-lightest: #f6b3c5;
+   --ifm-color-primary: #fa6673;
+   --ifm-color-primary-dark: #f94454;
+   --ifm-color-primary-darker: #f83344;
+   --ifm-color-primary-darkest: #ef081c;
+   --ifm-color-primary-light: #fb8892;
+   --ifm-color-primary-lighter: #fc99a2;
+   --ifm-color-primary-lightest: #fdccd1;
   --ifm-code-font-size: 95%;
 }
 
