@@ -25,6 +25,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: '/recipe',
         },
         blog: {
           showReadingTime: true,
@@ -50,9 +51,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'macOS-한영-전환이-씹히는-현상-막기',
+            docId: 'git',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Recipe',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

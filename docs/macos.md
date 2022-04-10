@@ -1,16 +1,10 @@
----
-sidebar_position: 0
----
+# macOS
 
-# macOS 한영 전환이 씹히는 현상 막기
-
-### 개요
+## 한영 전환이 씹히는 현상 막기
 
 <p><kbd>Caps Lock</kbd>을 눌렀을 때 다른 키가 눌린 것으로 인식하게한다. (<kbd>Caps Lock</kbd>의 영대문자 고정 기능은 쓰지 않는다)</p>
 
 <p><kbd>Caps Lock</kbd>을 눌렀을 때 인식되는 다른 키를 macOS의 한영 전환 단축키로 지정한다.</p>
-
-### 방법
 
 #### Karabiner-Elements 설치
 
