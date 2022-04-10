@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 ## Git
 
 ### 현재 브랜치

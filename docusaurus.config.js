@@ -54,7 +54,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'macOS-한영-전환이-씹히는-현상-막기',
             position: 'left',
             label: 'Tutorial',
           },
