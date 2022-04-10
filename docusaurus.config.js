@@ -46,11 +46,7 @@ const config = {
         defaultMode: 'dark'
       },
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: '오드',
         items: [
           {
             type: 'doc',
