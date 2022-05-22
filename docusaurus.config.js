@@ -60,7 +60,7 @@ const config = {
           /** 블로그는 추후에 쓰기 위해 주석처리 */
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/laranhee',
             label: 'GitHub',
             position: 'right',
           },
