@@ -27,12 +27,14 @@ const config = {
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           routeBasePath: '/recipe',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
+        /** 블로그는 추후에 쓰기 위해 주석처리 */
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -55,7 +57,8 @@ const config = {
             position: 'left',
             label: 'Recipe',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /** 블로그는 추후에 쓰기 위해 주석처리 */
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
